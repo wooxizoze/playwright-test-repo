@@ -1,21 +1,14 @@
 {
-  "name": "playwright-test-repo",
+  "name": "playwr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wooxizoze/playwright-test-repo.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wooxizoze/playwright-test-repo/issues"
-  },
-  "homepage": "https://github.com/wooxizoze/playwright-test-repo#readme",
-  "devDependencies": {
-    "@playwright/test": "^1.22.2"
+  "dependencies": {
+    "playwright": "^1.23.4"
   }
 }
