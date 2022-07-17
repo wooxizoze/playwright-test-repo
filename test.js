@@ -5,6 +5,6 @@ const {chromium} = require('playwright');
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto('https://www.onliner.by/')
-    await page.screenshot({ path: 'page.png'});
+    await page.screenshot({ path: 'screen/page.png', fullPage: true});
     await browser.close();
 }) ()
